@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    font-family:"Yu Gothic",sans-serif;
+    background:black;
+}
+
+.card {
+    color: white;
+    text-shadow: 0 0 8px red;
+}
+.link {
+  color:black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+header{
+    background-size: cover;
+    background-position: center;
+    color: #ff3333;
+    text-align: center;
+    padding: 100px 20px;
+    text-shadow: 0 0 10px red,
+                 0 0 20px darkred,
+                 0 0 30px black;
+}
+
+header h1{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+header p{
+    color: #ddd;
+    font-size: 1.3rem;
+}
+.card.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+nav{
+    background:#000000;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+button{
+    background:#ff6b6b;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+}
+.story-card {
+    text-align: center;
+    color: white;
+}
+
+.story-card h2 {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+section{
+    max-width:1000px;
+    margin:30px auto;
+    background:black;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.card {
+    color: white;
+}
+.card{
+    flex:1;
+    min-width:200px;
+    background:#000000;
+    padding:20px;
+    border-radius:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#ffd93d;
+}
+
+footer{
+    text-align:center;
+    background:#000000;
+    color:white;
+    padding:20px;
+}
+html {
+    scroll-behavior: smooth;
+}
